@@ -83,7 +83,7 @@
 			<groupId>net.sf.jipcam</groupId>
 			<artifactId>jipcam-axis-core</artifactId>
 			<scope>compile</scope>
-			<version>${pom.parent.version}</version>
+			<version>${project.parent.version}</version>
 		</dependency>
 	</dependencies>
 

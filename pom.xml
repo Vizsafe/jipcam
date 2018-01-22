@@ -26,7 +26,7 @@
 
 	<organization>
 		<name>SourceForge</name>
-		<url>http://${pom.artifactId}.sourceforge.net/</url>
+		<url>http://${project.artifactId}.sourceforge.net/</url>
 	</organization>
 
 	<licenses>
@@ -66,7 +66,7 @@
 	<ciManagement>
 		<system>CruiseControl</system>
 		<url>
-			http://gemini/cruisecontrol/buildresults/${pom.artifactId}/
+			http://gemini/cruisecontrol/buildresults/${project.artifactId}/
 		</url>
 		<notifiers>
 			<notifier>
@@ -83,7 +83,7 @@
 				<type>rss</type>
 				<configuration>
 					<url>
-						http://gemini/cruisecontrol/rss/${pom.artifactId}
+						http://gemini/cruisecontrol/rss/${project.artifactId}
 					</url>
 				</configuration>
 			</notifier>
@@ -100,37 +100,37 @@
 		<mailingList>
 		<name>User Mailing List</name>
 		<subscribe>
-		http://lists.sourceforge.net/lists/listinfo/${pom.artifactId}-user
+		http://lists.sourceforge.net/lists/listinfo/${project.artifactId}-user
 		</subscribe>
 		<unsubscribe>
-		http://lists.sourceforge.net/lists/listinfo/${pom.artifactId}-user
+		http://lists.sourceforge.net/lists/listinfo/${project.artifactId}-user
 		</unsubscribe>
 		<archive>
-		http://www.mail-archive.com/${pom.artifactId}-user@lists.sf.net/
+		http://www.mail-archive.com/${project.artifactId}-user@lists.sf.net/
 		</archive>
 		</mailingList>
 		<mailingList>
 		<name>Developer Mailing List</name>
 		<subscribe>
-		http://lists.sourceforge.net/lists/listinfo/${pom.artifactId}-devel
+		http://lists.sourceforge.net/lists/listinfo/${project.artifactId}-devel
 		</subscribe>
 		<unsubscribe>
-		http://lists.sourceforge.net/lists/listinfo/${pom.artifactId}-devel
+		http://lists.sourceforge.net/lists/listinfo/${project.artifactId}-devel
 		</unsubscribe>
 		<archive>
-		http://www.mail-archive.com/${pom.artifactId}-devel@lists.sf.net/
+		http://www.mail-archive.com/${project.artifactId}-devel@lists.sf.net/
 		</archive>
 		</mailingList>
 		<mailingList>
 		<name>CVS Commits Mailing List</name>
 		<subscribe>
-		http://lists.sourceforge.net/lists/listinfo/${pom.artifactId}-cvs
+		http://lists.sourceforge.net/lists/listinfo/${project.artifactId}-cvs
 		</subscribe>
 		<unsubscribe>
-		http://lists.sourceforge.net/lists/listinfo/${pom.artifactId}-cvs
+		http://lists.sourceforge.net/lists/listinfo/${project.artifactId}-cvs
 		</unsubscribe>
 		<archive>
-		http://sourceforge.net/mailarchive/forum.php?forum=${pom.artifactId}-cvs
+		http://sourceforge.net/mailarchive/forum.php?forum=${project.artifactId}-cvs
 		</archive>
 		</mailingList>
 		</mailingLists>
